@@ -381,7 +381,7 @@ If you use TreeFormer in your research, please cite:
 @article{mwubahimana2025treeformer,
   title={TreeFormer: Cross-Scalable Representational Canopy Height Mapping from Remote Sensing Multi-modalities},
   author={Mwubahimana, Boaz and Jianguo, Yan and Miao, Dingruibo and others},
-  journal={[Journal Name]},
+  journal={[Journal to be announced]},
   year={2025}
 }
 ```
