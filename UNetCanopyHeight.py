@@ -1,8 +1,8 @@
 """
-Enhanced Canopy Height Training System with Comprehensive Visualization
+These are full codes for Enhanced UNet for Canopy Height Training System with Comprehensive Visualization
 - Saves feature maps/activations from all layers
 - Generates and saves heatmaps
-- Exports images, masks, and predictions as TIF (300 DPI)
+- Exports images, masks, and predictions as TIF (300 DPI o r whateverr you wish based on desired output resolution)
 - Organized folder structure
 """
 
@@ -71,8 +71,8 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 
 # MODIFY THESE PATHS TO YOUR SETUP
-TILES_DIR = r"E:\hunts\Symbiose_Management\for_UAS_data\Carbon_Market\codes\tiles_quality_filtered"
-OUTPUT_DIR = r"E:\hunts\Symbiose_Management\for_UAS_data\Carbon_Market\codes\training_results"
+# TILES_DIR = r"P:\for_UAS_data\Carbon_Market\codes\tiles_quality_filtered"     #...........Your data(raw-processed_data in their format either .png, .tif or jpeg) path
+OUTPUT_DIR = r"P:\for_UAS_data\training_results"
 
 CONFIG = {
     'TILE_SIZE': 256,
@@ -1001,4 +1001,5 @@ def main():
     print("      └── comparisons/ (PNG @ 300 DPI)")
 
 if __name__ == "__main__":
+
     main()
