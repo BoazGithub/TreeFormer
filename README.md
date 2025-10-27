@@ -23,8 +23,7 @@ It supports **multimodal inputs (RGB, NIR, LiDAR)** and delivers **publication-r
 - ✅ Complete training system with automatic visualization
 - 🔍 Feature maps from all network layers
 - 🌡️ Heatmap overlays on original imagery
-- 🖼️ High-quality outputs in **TIF @ 300 DPI**
-- 🗂️ Organized, publication-ready folder structure
+- 🖼️ High-quality outputs in **TIF @ 300 DPI** or you may refine baseed on your wish
 - 🧠 Standalone visualization mode (no retraining needed)
 - 🧩 Highly configurable (paths, layers, DPI, batch size, etc.)
 
@@ -200,7 +199,7 @@ training_results/
 ───────────────────────────────────────────────────────────────────────────────
 
 Required:
-   • Python 3.7+
+   • Python 13.1.11+
    • PyTorch (CUDA recommended)
    • OpenCV, Pillow, Matplotlib, NumPy, Pandas
    • tqdm, scikit-learn, seaborn
@@ -210,8 +209,8 @@ Install all:
 
 Recommended:
    • NVIDIA GPU with CUDA  
-   • ≥8 GB RAM  
-   • ≥10 GB free disk space  
+   • ≥54 GB RAM  but good at 154GB as we had during data engineering(from point clouds to training)
+   • ≥200 GB free disk space  
 
 ───────────────────────────────────────────────────────────────────────────────
 🎨 KEY FEATURES SUMMARY
@@ -227,11 +226,6 @@ Recommended:
    - 8 heatmap overlay layers
    - Side-by-side analysis panels
    - Pixel-level comparison plots
-
-💾 PUBLICATION QUALITY
-   - 300 DPI TIF exports
-   - Lossless compression
-   - Ready for academic figures
 
 ⚡ PERFORMANCE
    - GPU acceleration
