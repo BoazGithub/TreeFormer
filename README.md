@@ -1,6 +1,12 @@
 # 🌲 TreeFormer: Comprehensive Training & Visualization System for Canopy Height Prediction
 
----
+![Uploading TreeFormer_GraphicalAbstract2_page-0001.jpg…]()
+
+
+![TreeFormer4_page-0001](https://github.com/user-attachments/assets/7a58bb19-28c2-49d1-a922-3fb7df194998)
+
+
+
 
 ## 📦 Overview
 
