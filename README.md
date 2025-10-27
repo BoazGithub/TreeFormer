@@ -1,5 +1,6 @@
 # 🌲 TreeFormer: Comprehensive Training & Visualization System for Canopy Height Prediction
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7206ba98-8c3b-4d5f-b10a-d13800c2da6b" />
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a25e6630-c725-4355-91cd-10f0b31884d2" />
 
 ## Graphical Abstract: Showcasing the Need for Autonomous and Accurate Scalable Novel Model for Forest Multidimensional Information Extraction
 
