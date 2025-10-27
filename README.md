@@ -5,18 +5,22 @@
 ![TreeFormer_GraphicalAbstract2_page-0001](https://github.com/user-attachments/assets/31bbce30-1e99-42ef-9a91-a5fcec4b88ba)
 
 
-## Treeformer Architecture.
-![TreeFormer4_page-0001](https://github.com/user-attachments/assets/7a58bb19-28c2-49d1-a922-3fb7df194998)
-
-
-
-
 ## 📦 Overview
 
 **TreeFormer** provides a fully automated **training and visualization pipeline** for canopy height estimation using deep learning.  
 It supports **multimodal inputs (RGB, NIR, LiDAR)** and delivers **publication-ready visual outputs**, including feature maps, heatmaps, and canopy height predictions.
 
+
+## Treeformer Architecture.
+![TreeFormer4_page-0001](https://github.com/user-attachments/assets/7a58bb19-28c2-49d1-a922-3fb7df194998)
+
 ---
+## Results: Inference on Sparse and ense predictions of TreeFormer    
+Results fon Inference in a lens of Sparse and and dense predicitive, over 54 millions pixels in the original data and got over 45 million pixels within in the inference which reflect the scale model behavior on un seen sdata which reflect exactly the real word applicatriona dn the model is good in terms space and complexity whioch is scale and can be deloplyedfor actual use or real worlds application in forest manageemt especillyfdor carbn mapppuig anf forest innventory
+
+![TreeFormer_Sparse_and_Dense_predictiveV1_page-0001](https://github.com/user-attachments/assets/f2af0126-23eb-41ec-9a1f-579f2e2be4c3)
+
+
 
 ## 🎯 Key Features
 
