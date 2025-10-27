@@ -1,8 +1,15 @@
 """
-Refined Quality-Filtered Tiling System for Canopy Height Mapping
-Only saves tiles with meaningful canopy height variation
+Here is refined Quality-Filtered Tiling System for Canopy Height Mapping
+We will only saves tiles with meaningful canopy height variation
 Includes all necessary library installations
 """
+"""
+# The codes, follow these princicples
+Tile is good quality if:
+# 1. Has sufficient variation (not constant)
+# 2. Has sufficient pixels with meaningful height
+"""
+
 import subprocess
 import sys
 import os
@@ -548,4 +555,5 @@ if __name__ == "__main__":
     if success:
         print("\n Quality-filtered tiling completed successfully!")
     else:
+
         print("\n Tiling encountered issues. Check the messages above.")
